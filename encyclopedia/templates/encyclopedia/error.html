@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Error: Page Not Found
+{% endblock %}
+
+{% block body %}
+    <h1>Oops! <i>'{{ entryTitle }}'</i> Not Found</h1>
+    
+    <p>It seems like the page you were looking for does not exist.</p>
+    <p>You can try one of the following options:</p>
+    <ul>
+        <li>Go back to the <a href="{% url 'index' %}">homepage</a></li>
+        <li>Perform a search to find a relevant page</li>
+        <li>Create a <a href="{% url 'newPage' %}">new page</a></li>
+    </ul>
+{% endblock %}
