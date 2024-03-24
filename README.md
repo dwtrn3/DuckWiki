@@ -8,7 +8,7 @@ A Wikipedia-like online encyclopedia.
 ![Alt text](https://res.cloudinary.com/ddhxwfbaj/image/upload/v1711271987/Duckwiki2.png)
 
 
-## Specification
+## Specifications
 
 1.  **Entry Page:** Ensure that visiting "/wiki/TITLE" displays the content of the corresponding encyclopedia entry. Utilize the appropriate function to retrieve entry content. Display an error page if the requested entry does not exist.
 2.  **Index Page:** Update "index.html" to allow users to click on entry names and be directed to the respective entry pages.
